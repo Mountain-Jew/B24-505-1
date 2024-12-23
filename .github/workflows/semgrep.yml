@@ -19,5 +19,5 @@ jobs:
       - uses: actions/checkout@v4
       - run: semgrep ci
     env:
-      SEMGREP_APP_TOKEN: ${{ 74595b374da4c1e86ad62b3c49343717125013f51f222c4c8d1f74a8146977ba }} # секрет из
+      SEMGREP_APP_TOKEN: 74595b374da4c1e86ad62b3c49343717125013f51f222c4c8d1f74a8146977ba # секрет из
 
